@@ -1,8 +1,8 @@
 python simulator for integrated modelling of 5G (pysim5g)
 ===========================================
 
-[![Build Status](https://travis-ci.com/edwardoughton/pysim5g.svg?branch=master)](https://travis-ci.com/edwardoughton/pysim5g)
-[![Coverage Status](https://coveralls.io/repos/github/edwardoughton/pysim5g/badge.svg?branch=master)](https://coveralls.io/github/edwardoughton/pysim5g?branch=master)
+[![Build Status](dhaneshrajpysim5g.svg?branch=master)](pysim5g)
+[![Coverage Status](dhaneshraj)](dhaneshraj)
 
 Description
 ===========
@@ -13,13 +13,6 @@ Based on the Monte-Carlo method, the aim is to enable both engineering and econo
 The tool includes statistical analysis of radio interference to assess the system-level performance of 4G and 5G frequency band coexistence (including millimeter wave), while simultaneously quantifying the costs of ultra-dense 5G networks.
 
 One example application of this framework includes exploring the techno-economics of 5G infrastructure sharing strategies.
-
-Citation
-========
-
-- E. J. Oughton, K. Katsaros, F. Entezami, D. Kaleshi, and J. Crowcroft,
-  ‘An Open-Source Techno-Economic Assessment Framework for 5G Deployment’,
-  IEEE Access, vol. 7, pp. 155930–155940, 2019, https://doi.org/10.1109/ACCESS.2019.2949460.
 
 Example results
 ===============
@@ -74,20 +67,3 @@ To visualize the results, install `matplotlib`, `pandas` and `seaborn`:
 And then run:
 
     python vis/vis.py
-
-Background and funding
-======================
-
-The **python simulator for integrated modelling of 5G (pysim5g)** was funded by the
-UK [Digital Catapult's](http://www.digicatapult.org.uk) ESPRC-funded Researcher in Residence
-programme.
-
-Contributors
-============
-- Edward J. Oughton (University of Oxford) (Primary Investigator)
-- Kostas Kotsaros (UK Digital Catapult)
-- Fariborz Entezami (UK Digital Catapult)
-- Dritan Kaleshi (UK Digital Catapult)
-- Catarina Fernandes (UK Digital Catapult)
-- Tom Russell (University of Oxford)
-- Jon Crowcroft (University of Cambridge)
